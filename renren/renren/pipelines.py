@@ -11,7 +11,7 @@ from scrapy.http import Request
 
 class RenrenPipeline(ImagesPipeline):
 
-    def get_mediia_requests(self, item, info):
+    def get_media_requests(self, item, info):
         """TODO: Docstring for get_mediia_requests.
 
         :item: TODO
